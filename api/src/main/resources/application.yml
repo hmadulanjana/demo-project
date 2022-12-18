@@ -1,0 +1,15 @@
+spring: # Framework
+  datasource: # Database
+    url: jdbc:postgresql://localhost:5432/codinghermit
+    username: postgres
+    # password: 1997
+    driver-class-name: org.postgresql.Driver
+  redis: # Cache
+    host: localhost
+    port: 6379
+  # security:
+  #   user:
+  #     name: admin
+  #     password: 123
+server:
+  port: 4000
